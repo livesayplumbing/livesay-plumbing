@@ -89,7 +89,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   We work alongside builders as a reliable, professional trade
-                  partner — focused on quality and efficiency.
+                  partner, focused on quality and efficiency.
                 </p>
               </div>
             </div>
@@ -117,7 +117,7 @@ export default function AboutPage() {
                 <ul className="flex flex-col gap-3">
                   {[
                     "Clean. Professional. Reliable.",
-                    "On time — no delays",
+                    "On time, no delays",
                     "We handle the full scope",
                     "Quick response",
                   ].map((point) => (
