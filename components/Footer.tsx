@@ -38,8 +38,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-[#888888] text-sm leading-relaxed max-w-xs">
-              Residential & commercial plumbing across Melbourne.
-              Professional. Reliable. Built around your programme.
+              Melbourne's residential & commercial plumbing partner for builders and developers who can't afford delays. Professional on site. Accountable start to finish.
             </p>
           </div>
 
@@ -109,7 +108,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
           <div className="flex flex-col sm:flex-row gap-2 sm:gap-6 text-xs text-[#888888]">
-            <span>ABN: [Placeholder]</span>
+            <span>ABN: 53 855 113 375</span>
             <span>Licensed & Insured</span>
             <span>Melbourne, VIC, Australia</span>
           </div>
