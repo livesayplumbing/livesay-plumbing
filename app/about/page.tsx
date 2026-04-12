@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 const licences = [
   { label: "Plumbing Licence", value: "Licence No. 52722", issuer: "BPC, Building & Plumbing Commission" },
-  { label: "Public Liability Insurance", value: "$20,000,000 Cover", issuer: "Policy No. [Placeholder]" },
+  { label: "Public Liability Insurance", value: "$20,000,000 Cover", issuer: "" },
   { label: "ABN", value: "53 855 113 375", issuer: "Australian Business Register" },
 ];
 
@@ -84,15 +84,12 @@ export default function AboutPage() {
               </h2>
               <div className="flex flex-col gap-5 text-[#888888] leading-relaxed text-base">
                 <p>
-                  Livesay Plumbing has spent over two decades working in
-                  residential and commercial plumbing across Melbourne. We've
-                  built a reputation as the trade partner builders come back to
-                 , reliable, professional, and we get the job done.
+                  Livesay Plumbing brings over 20 years of experience delivering
+                  residential and commercial plumbing across Melbourne.
                 </p>
                 <p>
-                  We respect other trades, communicate proactively, and work
-                  around your programme. We show up, complete the scope, and
-                  move on to the next milestone.
+                  We work alongside builders as a reliable, professional trade
+                  partner — focused on quality and efficiency.
                 </p>
               </div>
             </div>
@@ -119,10 +116,10 @@ export default function AboutPage() {
                 </p>
                 <ul className="flex flex-col gap-3">
                   {[
-                    "Clean, presentable, and professional on every site",
-                    "On time, we never hold up other trades",
-                    "Full scope ownership from start to handover",
-                    "Large network to mobilise quickly and solve problems",
+                    "Clean. Professional. Reliable.",
+                    "On time — no delays",
+                    "We handle the full scope",
+                    "Quick to respond and solve problems",
                   ].map((point) => (
                     <li key={point} className="flex items-start gap-3">
                       <div className="w-4 h-4 bg-black flex-shrink-0 mt-0.5 flex items-center justify-center">

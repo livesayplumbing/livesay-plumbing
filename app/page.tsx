@@ -49,7 +49,7 @@ export default function HomePage() {
               {
                 step: "01",
                 title: "Enquiry",
-                desc: "Submit your project details via phone, email, or our quote form. We respond within 24 hours, usually faster.",
+                desc: "Submit your project details via phone, email, or our quote form. We respond within 1 business day.",
               },
               {
                 step: "02",
@@ -59,7 +59,7 @@ export default function HomePage() {
               {
                 step: "03",
                 title: "On Site",
-                desc: "We mobilise to your programme. Clean, professional, coordinated with your other trades. No surprises.",
+                desc: "We mobilise to your schedule. Clean, professional, coordinated with your other trades. No surprises.",
               },
               {
                 step: "04",

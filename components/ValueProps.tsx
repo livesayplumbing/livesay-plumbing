@@ -10,7 +10,7 @@ const values = [
         <path d="M8 14l4 4 8-8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="square" />
       </svg>
     ),
-    title: "Clean & Professional On Site",
+    title: "Mobilise to Your Schedule",
   },
   {
     icon: (
@@ -19,7 +19,7 @@ const values = [
         <path d="M14 8v6l4 2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="square" />
       </svg>
     ),
-    title: "On Time. On Programme.",
+    title: "Complete, Compliant & Ready for Handover",
   },
   {
     icon: (
@@ -27,7 +27,7 @@ const values = [
         <path d="M4 14h6l3 8 5-18 3 10h7" stroke="currentColor" strokeWidth="1.5" strokeLinecap="square" strokeLinejoin="miter" />
       </svg>
     ),
-    title: "We See It Through",
+    title: "We Respond Within 1 Business Day",
   },
 ];
 
@@ -41,7 +41,7 @@ export default function ValueProps() {
             Why Builders Choose Us
           </p>
           <h2 className="text-4xl lg:text-5xl font-black text-black leading-tight max-w-2xl">
-            The trade partner your programme depends on.
+            The trade partner you can depend on.
           </h2>
         </div>
 
