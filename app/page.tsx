@@ -64,7 +64,7 @@ export default function HomePage() {
               {
                 step: "04",
                 title: "Handover",
-                desc: "Full compliance certificates, inspections signed off, and a complete job from start to finish.",
+                desc: "Complete, compliant, and ready for handover.",
               },
             ].map((item, i) => (
               <div key={i} className="border border-black p-8 -mt-px -ml-px">

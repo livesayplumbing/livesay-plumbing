@@ -17,7 +17,7 @@ export default function HeroSection() {
           alt=""
           width={900}
           height={320}
-          className="w-[60vw] max-w-3xl opacity-[0.18] brightness-0 invert object-contain -translate-x-8 -translate-y-8"
+          className="w-[60vw] max-w-3xl opacity-[0.28] brightness-0 invert object-contain -translate-x-8 -translate-y-8"
           priority
         />
       </div>
@@ -62,8 +62,7 @@ export default function HeroSection() {
             className="text-[#888888] text-lg lg:text-xl font-light leading-relaxed max-w-xl mb-12"
           >
             Melbourne's residential & commercial plumbing partner for builders and developers
-            who can't afford delays. Professional on site. Reliable on programme.
-            Accountable start to finish.
+            who can't afford delays. Professional on site. Accountable start to finish.
           </motion.p>
 
           {/* CTA */}

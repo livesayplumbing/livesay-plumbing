@@ -7,6 +7,7 @@ interface ServiceCardProps {
   icon: ReactNode;
   title: string;
   description: string;
+  highlight?: string;
   index?: number;
 }
 
@@ -14,6 +15,7 @@ export default function ServiceCard({
   icon,
   title,
   description,
+  highlight,
   index = 0,
 }: ServiceCardProps) {
   return (
@@ -31,6 +33,9 @@ export default function ServiceCard({
         {title}
       </h3>
       <p className="text-[#888888] text-sm leading-relaxed">{description}</p>
+      {highlight && (
+        <p className="mt-3 text-xs font-bold uppercase tracking-widest text-black">{highlight}</p>
+      )}
     </motion.div>
   );
 }

@@ -72,7 +72,8 @@ const services = [
     ),
     title: "Maintenance",
     description:
-      "Scheduled and reactive maintenance contracts for residential & commercial properties, strata managers, and developers. Fast response times and clear communication to keep things simple.",
+      "Scheduled and reactive maintenance contracts for residential & commercial properties, strata managers, and developers.",
+    highlight: "Fast response times",
   },
   {
     icon: (

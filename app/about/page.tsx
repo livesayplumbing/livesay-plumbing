@@ -119,7 +119,7 @@ export default function AboutPage() {
                     "Clean. Professional. Reliable.",
                     "On time — no delays",
                     "We handle the full scope",
-                    "Quick to respond and solve problems",
+                    "Quick response",
                   ].map((point) => (
                     <li key={point} className="flex items-start gap-3">
                       <div className="w-4 h-4 bg-black flex-shrink-0 mt-0.5 flex items-center justify-center">
