@@ -37,7 +37,7 @@ export default function Navbar() {
               alt="Livesay Plumbing"
               width={120}
               height={40}
-              className="h-8 w-auto object-contain"
+              className="h-10 w-auto object-contain"
               priority
             />
           </Link>
@@ -58,14 +58,14 @@ export default function Navbar() {
       {/* Desktop Nav */}
       <div className="hidden md:block">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
+          <div className="flex items-center justify-between h-20">
             <Link href="/" className="flex items-center group">
               <Image
                 src="/logo.png"
                 alt="Livesay Plumbing"
                 width={220}
                 height={80}
-                className="h-16 w-auto object-contain"
+                className="h-20 w-auto object-contain"
                 priority
               />
             </Link>
