@@ -37,7 +37,7 @@ export default function Navbar() {
               alt="Livesay Plumbing"
               width={220}
               height={80}
-              className="h-16 w-auto object-contain"
+              className="h-10 md:h-16 w-auto object-contain"
               priority
             />
           </Link>
@@ -63,11 +63,12 @@ export default function Navbar() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2"
+            className="md:hidden flex items-center gap-2 bg-black text-white px-4 py-2"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle menu"
           >
-            {mobileOpen ? <X size={22} /> : <Menu size={22} />}
+            {mobileOpen ? <X size={20} /> : <Menu size={20} />}
+            <span className="text-xs font-bold uppercase tracking-widest">{mobileOpen ? "Close" : "Menu"}</span>
           </button>
         </div>
       </div>
