@@ -79,7 +79,7 @@ export default function Footer() {
                 </p>
                 <a
                   href="tel:+61410982052"
-                  className="text-sm text-white hover:text-[#888888] transition-colors"
+                  className="text-sm text-[#1e5fa8] hover:text-[#1a4f8e] transition-colors font-medium"
                 >
                   +61 410 982 052
                 </a>

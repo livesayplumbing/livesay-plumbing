@@ -137,7 +137,7 @@ export default function ServicesPage() {
               </p>
               <a
                 href="/contact"
-                className="mt-6 inline-block bg-white text-black text-xs font-bold px-6 py-3 uppercase tracking-widest hover:bg-[#F2F2F2] transition-colors duration-150 self-start"
+                className="mt-6 inline-block bg-[#1e5fa8] text-white text-xs font-bold px-6 py-3 uppercase tracking-widest hover:bg-white hover:text-[#1e5fa8] border border-[#1e5fa8] transition-colors duration-150 self-start"
               >
                 Request a Quote
               </a>

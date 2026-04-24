@@ -83,7 +83,7 @@ export default function ContactPage() {
                     </p>
                     <a
                       href="tel:+61410982052"
-                      className="text-black font-bold text-lg hover:text-[#888888] transition-colors"
+                      className="text-[#1e5fa8] font-bold text-lg hover:text-[#1a4f8e] transition-colors"
                     >
                       +61 410 982 052
                     </a>
@@ -132,7 +132,7 @@ export default function ContactPage() {
                 <div className="px-8 pb-8">
                   <a
                     href="tel:+61410982052"
-                    className="w-full bg-black text-white text-sm font-bold py-4 uppercase tracking-widest hover:bg-white hover:text-black border border-black transition-colors duration-150 flex items-center justify-center gap-3"
+                    className="w-full bg-[#1e5fa8] text-white text-sm font-bold py-4 uppercase tracking-widest hover:bg-white hover:text-[#1e5fa8] border border-[#1e5fa8] transition-colors duration-150 flex items-center justify-center gap-3"
                   >
                     <svg
                       width="16"

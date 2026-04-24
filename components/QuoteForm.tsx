@@ -246,7 +246,7 @@ export default function QuoteForm() {
       <div className="pt-2">
         <button
           type="submit"
-          className="w-full bg-black text-white text-sm font-bold py-4 uppercase tracking-widest hover:bg-white hover:text-black border border-black transition-colors duration-150"
+          className="w-full bg-[#1e5fa8] text-white text-sm font-bold py-4 uppercase tracking-widest hover:bg-white hover:text-[#1e5fa8] border border-[#1e5fa8] transition-colors duration-150"
         >
           Send Enquiry
         </button>

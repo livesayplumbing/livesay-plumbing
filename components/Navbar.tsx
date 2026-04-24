@@ -81,7 +81,7 @@ export default function Navbar() {
               ))}
               <Link
                 href="/contact"
-                className="bg-black text-white text-sm font-semibold px-5 py-2.5 uppercase tracking-wide hover:bg-white hover:text-black border border-black transition-colors duration-150"
+                className="bg-[#1e5fa8] text-white text-sm font-semibold px-5 py-2.5 uppercase tracking-wide hover:bg-white hover:text-[#1e5fa8] border border-[#1e5fa8] transition-colors duration-150"
               >
                 Get a Quote
               </Link>

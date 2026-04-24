@@ -212,7 +212,7 @@ export default function AboutPage() {
 
               <Link
                 href="/contact"
-                className="mt-6 inline-block bg-black text-white text-sm font-bold px-8 py-4 uppercase tracking-widest hover:bg-white hover:text-black border border-black transition-colors duration-150"
+                className="mt-6 inline-block bg-[#1e5fa8] text-white text-sm font-bold px-8 py-4 uppercase tracking-widest hover:bg-white hover:text-[#1e5fa8] border border-[#1e5fa8] transition-colors duration-150"
               >
                 Enquire About Your Location
               </Link>

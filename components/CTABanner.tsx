@@ -44,11 +44,7 @@ export default function CTABanner({
           <div className="flex-shrink-0">
             <Link
               href={href}
-              className={`inline-block text-sm font-bold px-10 py-4 uppercase tracking-widest transition-colors duration-150 ${
-                dark
-                  ? "bg-white text-black hover:bg-black hover:text-white border border-white"
-                  : "bg-black text-white hover:bg-white hover:text-black border border-black"
-              }`}
+              className="inline-block text-sm font-bold px-10 py-4 uppercase tracking-widest transition-colors duration-150 bg-[#1e5fa8] text-white hover:bg-white hover:text-[#1e5fa8] border border-[#1e5fa8]"
             >
               {buttonLabel}
             </Link>

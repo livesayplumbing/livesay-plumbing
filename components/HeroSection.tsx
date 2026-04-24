@@ -49,7 +49,7 @@ export default function HeroSection() {
               Livesay Plumbing
             </span>
             <span className="block font-black mt-3">
-              Built on Quality
+              Built on <span className="text-[#1e5fa8]">Quality</span>
               <br />& Reliability.
             </span>
           </motion.h1>
@@ -74,7 +74,7 @@ export default function HeroSection() {
           >
             <Link
               href="/contact"
-              className="inline-block bg-white text-black text-sm font-bold px-8 py-4 uppercase tracking-widest hover:bg-black hover:text-white border border-white transition-colors duration-150"
+              className="inline-block bg-[#1e5fa8] text-white text-sm font-bold px-8 py-4 uppercase tracking-widest hover:bg-white hover:text-[#1e5fa8] border border-[#1e5fa8] transition-colors duration-150"
             >
               Request a Quote
             </Link>
