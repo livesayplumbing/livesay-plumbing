@@ -28,75 +28,67 @@ export default function Navbar() {
         scrolled ? "border-b border-black" : "border-b border-black"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <Link href="/" className="flex items-center group">
+      {/* Mobile Nav Row */}
+      <div className="md:hidden border-b border-black">
+        <div className="flex items-center justify-between px-4 h-14">
+          <Link href="/" className="flex items-center">
             <Image
               src="/logo.png"
               alt="Livesay Plumbing"
-              width={220}
-              height={80}
-              className="h-10 md:h-16 w-auto object-contain"
+              width={120}
+              height={40}
+              className="h-8 w-auto object-contain"
               priority
             />
           </Link>
-
-          {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="flex items-center gap-3">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium tracking-wide text-black hover:text-[#888888] transition-colors duration-150 uppercase"
+                className="text-[10px] font-bold uppercase tracking-wide text-black"
               >
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="/contact"
-              className="bg-black text-white text-sm font-semibold px-5 py-2.5 uppercase tracking-wide hover:bg-white hover:text-black border border-black transition-colors duration-150"
-            >
-              Get a Quote
-            </Link>
           </nav>
-
-          {/* Mobile Menu Button */}
-          <button
-            className="md:hidden flex items-center gap-2 bg-black text-white px-4 py-2"
-            onClick={() => setMobileOpen(!mobileOpen)}
-            aria-label="Toggle menu"
-          >
-            {mobileOpen ? <X size={20} /> : <Menu size={20} />}
-            <span className="text-xs font-bold uppercase tracking-widest">{mobileOpen ? "Close" : "Menu"}</span>
-          </button>
         </div>
       </div>
 
-      {/* Mobile Menu */}
-      {mobileOpen && (
-        <div className="md:hidden bg-white border-t border-black">
-          <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col gap-4">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-sm font-medium uppercase tracking-wide text-black hover:text-[#888888]"
-                onClick={() => setMobileOpen(false)}
-              >
-                {link.label}
-              </Link>
-            ))}
-            <Link
-              href="/contact"
-              className="bg-black text-white text-sm font-semibold px-5 py-3 uppercase tracking-wide text-center hover:bg-white hover:text-black border border-black transition-colors duration-150 mt-2"
-              onClick={() => setMobileOpen(false)}
-            >
-              Get a Quote
+      {/* Desktop Nav */}
+      <div className="hidden md:block">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16">
+            <Link href="/" className="flex items-center group">
+              <Image
+                src="/logo.png"
+                alt="Livesay Plumbing"
+                width={220}
+                height={80}
+                className="h-16 w-auto object-contain"
+                priority
+              />
             </Link>
+            <nav className="flex items-center gap-8">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm font-medium tracking-wide text-black hover:text-[#888888] transition-colors duration-150 uppercase"
+                >
+                  {link.label}
+                </Link>
+              ))}
+              <Link
+                href="/contact"
+                className="bg-black text-white text-sm font-semibold px-5 py-2.5 uppercase tracking-wide hover:bg-white hover:text-black border border-black transition-colors duration-150"
+              >
+                Get a Quote
+              </Link>
+            </nav>
           </div>
         </div>
-      )}
+      </div>
     </header>
   );
 }
